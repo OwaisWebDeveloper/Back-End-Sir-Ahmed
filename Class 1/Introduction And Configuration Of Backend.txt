@@ -1,0 +1,77 @@
+
+14-May-2024 ___________________________________________________________________________________ Class 1 ________________________________________________________________________________ Tuesday
+
+------------------------------------------------------------------------------------- INTRODUCTION TO BACKEND -------------------------------------------------------------------------------
+
+-> Some library required to use backend.
+
+* M
+* E
+* R
+* N
+
+1. Mongo db.
+2. Express js.
+3. React js.
+4. Node js.
+
+------------------------------------------------------------------------------------------ URL ---------------------------------------------------------------------------------------------------
+
+-> Two types of URL.
+
+1. Base Url.
+2. End Point.
+
+https://jsonplaceholder.typicode.com/users
+
+* https://jsonplaceholder.typicode.com  <-- This is Base URL.
+* /users <-- This is End Point.
+
+----------------------------------------------------------------------------- Application Programming Interface ( API ) ----------------------------------------------------------------------------
+
+Method Of Api.
+
+1. Get.
+2. Post.
+3. Put.
+4. Delete.
+
+Rest or Restfull API.
+
+* woh API jo mein khud bana raha hun us ka endpoint mein bana raha hun woh rest or restfull api hai.
+  
+------------------------------------------------------------------------------------ CONFIGURATION OF BACKEND ------------------------------------------------------------------------------------
+
+
+1. Create a folder and Command Prompt Open this folder directory.
+2. Run this command npm init.
+
+Step by Step to run this line.
+
+1. Package Name: node js.
+2. version: (1.0.0) Press Enter.
+3. description: i am learning nodejs backend.
+4. entry point: (index.js).
+5. test command: Press Enter.
+6. git repository: Press Enter.
+7. keywords: Press Enter.
+8. author: owais.
+9. license: (ISC) Press Enter. 
+
+Is this OK? (yes) Press Enter.
+
+Installation or configuration is complete.
+
+3. This command initialize package.json file.
+4. Run this command npm start.
+
+if server is not run then open package.json file and add this line.
+"start": "node server.js"
+
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+
+5. Then Run this command npm start to run your server.
+________________________________________________________________________________________________ END _____________________________________________________________________________________________
